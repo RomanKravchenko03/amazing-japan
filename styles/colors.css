@@ -5,7 +5,17 @@
     --main-background-color-button: #6C79EC;
     --main-button-border-color: #6C79EC;
     --main-button-text-color: #6C79EC;
+    /* primary-button */
+    --primary-button-background-color:#6C79EC;
+    --primary-button-text-color: #FFFFFF;
+    /* primary-button-hover */
+    --primary-button-hover-background-color:#4653CE;
+    --primary-button-hover-text-color: #FFFFFF;
     /* secondary-button */
-    --secondary-button-background-color:#6C79EC;
-    --secondary-button-text-color: #FFFFFF;
+    /* secondary-button-hover */
+    --secondary-button-hover-background-color:#6C79EC;
+    --secondary-button-hover-text-color: #FFFFFF;
 } 
+
+
+
