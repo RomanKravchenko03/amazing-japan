@@ -1,0 +1,9 @@
+@import url(./normalize.css);
+@import url(./font.css);
+
+* {
+    font-family: Unbounded;
+    font-style: normal;
+    box-sizing: border-box;
+}
+
