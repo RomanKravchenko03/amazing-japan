@@ -1,0 +1,68 @@
+.cars__block {
+    position: absolute;
+    width: 100vw;
+    height: 2854px;
+    background-color: var(--cars-background-color);
+    top: 1520px;
+    width: 1920px;
+    border-radius: 50px 50px 0px 0px;
+    padding: 204px 195px 290px 195px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cars__block-title {
+    margin: 0;
+}
+
+.cars__block-subtitle {
+    margin-top: 50px;
+    width: 650px;
+    height: 168px;
+    margin-bottom: 50px;
+}
+
+.cars__block_image-one {
+    width: 650px;
+    height: 650px;
+    margin-top: 130px;
+}
+
+.cars__block-question {
+    width: 650px;
+    height: 212px;
+    border-radius: 40px;
+    background-color: var(--cars-question-background-color);
+    margin-top: 130px;
+    padding: 40px 40px 0px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cars__block-question > .descriptor {
+    color: var(--cars-question-color);
+}
+
+.cars__block-arrow {
+    cursor: pointer;
+}
+
+.cars__block_image-two {
+    width: 750px;
+    height: 750px;
+    margin-bottom: 130px;
+}
+
+.cars__block_image-object-fit {
+    width: 750px;
+    height: 600px;
+}
+
+.cars__block_object-fit {
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    border-radius: 40px;
+}

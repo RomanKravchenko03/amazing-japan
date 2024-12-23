@@ -1,0 +1,24 @@
+.museum__block {
+    position: absolute;
+    background-color: var(--museum-background-color);
+    top: 990px;
+    width: 100%;
+    height: 566px;
+    border-radius: 50px 50px 0px 0px;
+}
+
+.museum__block-info {
+    padding: 200px 195px 0px 195px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.museum__block-title {
+    width: 620px;
+    height: 100px;
+}
+
+.museum__block-subtitle {
+    width: 750px;
+    height: 144px;
+}

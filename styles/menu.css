@@ -15,8 +15,17 @@
   font-weight: 400;
   text-decoration: none;
   color: var(--main-text-color);
+  transition: all .5s;
+  cursor: pointer;
 }
 
-/* .menu__link_active {
-  color: var(--main-background-color-button);
-} */
+.menu__link:active {
+  color: var(--main-button-text-color);
+  font-size: 16px;
+}
+
+.menu__link:hover {
+  color: var(--main-button-text-color);
+  cursor: pointer;
+  font-size: 15px;
+}

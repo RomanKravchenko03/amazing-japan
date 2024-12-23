@@ -7,30 +7,35 @@
     <title>Автовыходные в усадьбе Архангельское</title>
   </head>
   <body>
+
     <header class="header">
-      <div class="container">
+      <div class="header__navigation">
         <div class="header__block header__block_top">
           <div class="header__logo">
-            <img src="./images/logo.png" alt="logo" class="img">
+            <a class="header__logo-href" href="#">
+              <img src="./images/logo.png" alt="logo" class="img">
+            </a>
           </div>
-          <nav class="navbar">
-            <ul class="menu">
-              <li class="menu__item">
-                <a href="#" class="menu__link"> Участники </a>
-              </li>
-              <li class="menu__item">
-                <a href="#" class="menu__link"> Расписание </a>
-              </li>
-              <li class="menu__item">
-                <a href="#" class="menu__link"> Активности </a>
-              </li>
-              <li class="menu__item">
-                <a href="#" class="menu__link"> Билеты </a>
-              </li>
-            </ul>
-          </nav>
+            <nav class="navbar">
+              <ul class="menu">
+                <li class="menu__item">
+                  <a href="#" class="menu__link"> Участники </a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link"> Расписание </a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link"> Активности </a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link"> Билеты </a>
+                </li>
+              </ul>
+            </nav>
         </div>
-        
+      </div>
+
+        <div class="container">
           <div class="header__partners">
             <div class="header__partners_item">
               <img 
@@ -87,8 +92,68 @@
         
     </header>
     <main class="main">
-      <section class="section">section</section>
+      <section class="museum__block">
+        <div class="museum__block-info">
+            <h1 class="museum__block-title headline">
+              Музей-заповедник 
+              <br>
+              Архангельское 
+            </h1>
+            <h2 class="museum__block-subtitle text">
+              Усадьба Архангельское это роскошный дворцовопарковый ансамбль, построенный в конце XVIII века. 
+              Он являлся резиденцией царской семьи Юсуповых и в наше время приобрел народное прозвище- “Подмосковный Версаль”. 
+              Заповедник состоит из множества аллей среди множества зданий и более 200 скульптур и фонтанов. 
+              Усадьба также имеет выход на набережную Москва-реки. Площадь заповедника составляет 800 га.
+            </h2>
+        </div>
+      </section>
+      <section class="cars__block">
+        <div class="cars__block-info">
+          
+          <h1 class="cars__block-title headline">
+            Автомобили
+          </h1>
+          <h2 class="cars__block-subtitle text">
+            Редчайшие автомобили, произведенные за последние 20 лет, включая спорт, супер и гипер кары. 
+            Широкий спектр янгтаймеров, от легендарной японской JDM классики до угловатых итальянских суперкаров 80х и 90х годов. 
+            Разнообразные классические шедевры начиная с довоенных европейских авто, заканчивая американскими масл-карами 60х и 70х годов выпуска.
+          </h2>
+          <button class="cars__block-button button button__primary">
+            принять участие
+          </button>
+
+          <div class="cars__block_image-one">
+            <img src="./images/lamborgini.png" alt="lamborgini">
+          </div>
+          <div class="cars__block_image-one">
+            <img src="./images/ferrari.png" alt="ferrari">
+          </div>
+          
+          <div class="cars__block-question">
+            <span class="descriptor">Еще фото</span>
+              <div class="cars__block-arrow">
+                <img src="./images/question-arrow-right.png" alt="">
+              </div>
+          </div>
+            
+        </div>
+
+        <div class="cars__block-vertical">
+          
+          <div class="cars__block_image-two">            
+            <img src="./images/dodge.png" alt="">
+          </div>
+          <div class="cars__block_image-two">            
+            <img src="./images/ford.png" alt="">
+          </div>
+          <div class="cars__block_image-object-fit">            
+            <img class="cars__block_object-fit" src="./images/delorian.jpeg" alt="">
+          </div>
+
+        </div>
+
+      </section>
     </main>
-    <footer class="footer">footer</footer>
+    <!-- <footer class="footer">footer</footer> -->
   </body>
 </html>
