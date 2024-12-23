@@ -1,10 +1,12 @@
 @import url(./normalize.css);
 @import url(./font.css);
 @import url(./colors.css);
-@import url(./header.css);
-@import url(./button.css);
 /* block */
 @import url(./menu.css);
+@import url(./header.css);
+@import url(./museum.css);
+@import url(./button.css);
+@import url(./cars.css);
 
 * {
     font-family: Unbounded;
@@ -27,4 +29,9 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
+}
+.headline {
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 50px;
 }

@@ -17,6 +17,15 @@
     /* secondary-button-hover */
     --secondary-button-hover-background-color:#6C79EC;
     --secondary-button-hover-text-color: #FFFFFF;
+    /* section-one-museum */
+    --museum-background-color:#F6F5F5;
+    /* section-two-cars */
+    --cars-background-color: #D0E4D9;
+    --cars-question-background-color: #8EAAAB;
+    --cars-question-color: #ffffff;
+
+
+
 } 
 
 
