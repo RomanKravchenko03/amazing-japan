@@ -1,0 +1,68 @@
+.location__block {
+    width: 1920px;
+    /* height: 3301px; */
+    height: 2442px;
+    background-color: var(--location-background-color);
+}
+
+.location__block-container {
+    display: flex;
+}
+
+.location__block-information {
+    width: 1530px;
+    height: 922px;
+    margin-top: 200px;
+}
+
+.location__block-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 406px;
+    height: 85px;
+    margin-bottom: 60px;
+}
+
+.location__block-left-map {
+    margin-bottom: 30px;
+}
+
+.location__block-left {
+    width: 620px;
+    height: 777px;
+    margin-right: 160px;
+}
+
+.location__block-left-link {
+    text-decoration: none;
+    color: #000000;
+    padding-left: 500px;
+}
+
+.location__block-right-title {
+    margin: 0px 0px 50px 0px;
+}
+
+.location__block-right-subtitle {
+    width: 750px;
+    height: 168px;
+    margin-bottom: 124px;
+}
+
+.location__block-right-quanity > 
+.location__block-right-quanity-item:not(:first-child)  {
+    margin-top: 70px;
+}
+
+.location__block-right-quanity-title {
+    margin: 0 ;
+}
+
+.location__block-right-quanity-subtitle {
+    margin: 10px 0px 0px 0px;
+}
+
+.location__block-slide-map {
+    margin-top: 180px;
+}

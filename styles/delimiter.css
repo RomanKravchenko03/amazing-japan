@@ -1,0 +1,69 @@
+.delimiter {
+    width: 1920px;
+    height: 50px;
+    border-radius: 50px 50px 0 0;
+    background-color: var(--delimiter-secondary-background-color);
+    margin-bottom: -1px;
+    margin-top: -50px;
+}
+
+.delimiter__secondary {
+    position: absolute;
+    width: 1920px;
+    height: 50px;
+    border-radius: 50px 50px 0 0;
+    background-color: var(--delimiter-primary-background-color);
+    margin-bottom: -1px;
+    margin-top: -50px;
+}
+
+.delimiter__tertiary {
+    width: 1920px;
+    height: 50px;
+    border-radius: 50px 50px 0 0;
+    background-color: var(--delimiter-tertiary-background-color);
+    margin-bottom: -1px;
+    display: block;
+    position: absolute;
+    margin-top: -50px;
+}
+
+.delimiter__quaternary {
+    display: flex;
+    align-items: center;
+    width: 1920px;
+    height: 146px;
+    border-radius: 50px 50px 0 0;
+    margin-bottom: -1px;
+    background-color: var(--delimiter-quaternary-background-color);
+}
+
+.delimiter__quaternary-elements {
+    margin-right: 30px;
+    height: 85px;
+    width: 85px;
+}
+
+.delimiter__quaternary-text {
+    margin-right: 30px;
+    height: 85px;
+}
+
+.delimiter__content {
+    position: absolute;
+    display: flex;
+    left: -60px;
+    height: 146px;
+    padding: 30px 0;
+    align-items: center;
+    width: 1920px;
+    overflow: hidden;
+}
+
+.delimiter__five-point {
+    width: 1920px;
+    height: 50px;
+    border-radius: 0 0 50px 50px;
+    background-color: var(--ticket-background-color);
+    margin-top: -4px;
+}

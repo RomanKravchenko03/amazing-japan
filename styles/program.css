@@ -1,0 +1,73 @@
+.program__block {
+    width: 1920px;
+    height: 2291px;
+    background-color: var(--program-background-color);
+}
+
+.program__block-info {
+    padding: 190px 195px 240px 195px;
+}
+
+.program__block-title {
+    margin-bottom: 80px;
+}
+
+.program__block_box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 160px;
+}
+
+.program__block_different {
+    padding: 70px;
+    width: 490px;
+    height: 491px;
+    border-radius: 40px;
+    border: solid 2px #C1C1C1;
+}
+
+.program__block-frame {
+    margin-bottom: 30px;
+}
+
+.program__block_title {
+    margin-bottom: 30px;
+}
+
+.program__block_subtitle {
+    color: #1E1E25;
+}
+
+.program__block-contests {
+    display: flex;
+    justify-content: space-between;
+}
+
+.program__contest-box {
+    width: 750px;
+    height: 850px;
+    border-radius: 40px;
+    padding: 120px 100px 0px 100px;
+    position: relative;
+}
+
+
+/* .program__block-contests :not(:first-child) {
+    background-color: var(--program-box-secondary-background-color);
+} */
+
+.program__contest-box-title {
+    margin-bottom: 30px;
+}
+
+.program__contest-ico-gift {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.program__contest-ico-trophy {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
